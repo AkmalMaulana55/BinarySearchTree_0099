@@ -30,5 +30,9 @@ public:
         int x;
         cout << "Masukkan nilai: ";
         cin >> x;
+
+        Node *newNode = new Node();
+
+        
     }
 };
