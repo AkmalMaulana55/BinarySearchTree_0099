@@ -56,5 +56,12 @@ public:
             return;
         }
         
+        else if (x > parent->info)
+        {
+            parent->rightchild = newNode;
+
+            return;
+        }
+        
     }
 };
