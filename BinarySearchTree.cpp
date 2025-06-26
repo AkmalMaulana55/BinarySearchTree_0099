@@ -78,4 +78,9 @@ public:
             
         }
     }
+
+    bool isEmpty()
+    {
+        return ROOT == nullptr;
+    }
 };
